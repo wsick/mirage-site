@@ -18,7 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "mirage": "https://github.com/wsick/mirage.git",
-    "mirage-html": "https://github.com/wsick/mirage-html.git"
+    "mirage": "https://github.com/wsick/mirage.git#^0.1.0",
+    "mirage-html": "https://github.com/wsick/mirage-html.git#^0.1.0"
   }
 }
