@@ -1,0 +1,18 @@
+{
+  "name": "mirage-site",
+  "version": "1.0.0",
+  "description": "Website for mirage",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsick/mirage-site.git"
+  },
+  "keywords": [
+    "mirage"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/wsick/mirage-site/issues"
+  },
+  "homepage": "https://github.com/wsick/mirage-site#readme"
+}

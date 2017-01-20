@@ -1,0 +1,24 @@
+{
+  "name": "mirage-site",
+  "description": "Website for mirage",
+  "authors": [
+    "Brad Sickles <brad.sickles@gmail.com>",
+    "Adrian De Smul <adriandesmul@gmail.com>"
+  ],
+  "keywords": [
+    "mirage"
+  ],
+  "homepage": "https://github.com/wsick/mirage-site",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mirage": "https://github.com/wsick/mirage.git",
+    "mirage-html": "https://github.com/wsick/mirage-html.git"
+  }
+}
