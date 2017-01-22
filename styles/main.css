@@ -49,14 +49,9 @@ table {
 
 /* Site CSS */
 
-body {
-    background-color: #55A7DD;
-}
-
-p, a, h1, h2, span {
+p, a, h1, h2, h3, span {
   font-family: 'Source Sans Pro';
   font-weight: 300;
-  color: white;
   font-size: 16px;
 }
 
@@ -68,8 +63,18 @@ h1 {
 
 h2 {
   font-weight: 700;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 700;
   font-size: 1.2rem;
   text-align: center;
+}
+
+.mainContent {
+  color: white;
+  background-color: #55A7DD;
 }
 
 .menu--option {
@@ -85,4 +90,26 @@ h2 {
   text-align: center;
   font-size: 1.2rem;
   line-height: 30px
+}
+
+.meetTheTeam {
+  background-color: white;
+  color: #15669C;
+}
+
+.meetTheTeam--photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 5px solid #55A7DD;
+}
+
+.meetTheTeam--photo > img {
+  border-radius: 100px;
+}
+
+.meetTheTeam--handle {
+  color: #55A7DD;
+  font-size: 1.2rem;
+  text-align: center;
 }
