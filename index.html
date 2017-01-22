@@ -6,11 +6,22 @@
     <script type="text/javascript" src="lib/mirage-html/dist/mirage-html.min.js"></script>
 </head>
 <body onload="mirage.html.watch()">
-  <div data-layout="html.height: infinite; type: panel;">
-    <div id="menu" class="menu" data-layout="type: stack-panel; orientation: horizontal; max-width: 1040; horizontal-alignment: center;">
-      <a class="menuOption" data-layout="type: html;">Tutorials</a>
-      <a class="menuOption" data-layout="type: html;">Download</a>
-      <a class="menuOption" data-layout="type: html;">Team</a>
+  <div data-layout="type: panel; html.height: infinite;" style="background-color: blue;">
+    <div data-layout="type: stack-panel; orientation: vertical; min-width: 800; max-width: 1040; horizontal-alignment: center;">
+
+      <div id="header" data-layout="type: panel; margin: 0 20;">
+        <div id="title" data-layout="type: panel; horizontal-alignment: left;">
+        </div>
+        <div id="menu" class="menu" data-layout="type: stack-panel; orientation: horizontal; horizontal-alignment: right;">
+          <a class="menuOption" data-layout="type: html;">Tutorials</a>
+          <a class="menuOption" data-layout="type: html;">Download</a>
+          <a class="menuOption" data-layout="type: html;">Team</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div >
     </div>
   </div>
 </body>
