@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="72px" viewBox="0 0 148 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <text id="irage" font-family="SourceSansPro-Light, Source Sans Pro" font-size="48" font-weight="300" fill="#FFFFFF">
+                <tspan x="54" y="60">irage</tspan>
+            </text>
+            <g id="Group">
+                <polygon id="Path-2" fill="#9CD3F8" points="0 7.10542736e-15 0 60 10.7142857 60 10.7142857 15"></polygon>
+                <polygon id="Path-3" fill="#15669C" points="0 1.51788304e-17 25 35 25 20 14.2857143 0"></polygon>
+                <polygon id="Path-4" fill="#0B3B5C" points="25 20 25 35 50 0 35.7142857 0"></polygon>
+                <polygon id="Path-5" fill="#3D7091" points="39.2857143 15 50 0 50 60 39.2857143 60"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
