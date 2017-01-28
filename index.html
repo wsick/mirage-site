@@ -5,7 +5,10 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <script type="text/javascript" src="lib/mirage-html/dist/mirage-html.min.js"></script>
 </head>
-<body onload="mirage.html.watch()">
+<body>
+<script>
+mirage.html.watch();
+</script>
   <div data-layout="type: stack-panel; orientation: vertical; html.height: infinite;">
     <div class="mainContent" data-layout="type: panel">
       <div data-layout="type: stack-panel; orientation: vertical; min-width: 800; max-width: 1040; horizontal-alignment: center;">
