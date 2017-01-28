@@ -2,9 +2,87 @@
 <head>
     <title>Mirage</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
-    <script type="text/javascript" src="lib/mirage/dist/mirage.js"></script>
-    <script type="text/javascript" src="lib/mirage-html/dist/mirage-html.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <script type="text/javascript" src="lib/mirage-html/dist/mirage-html.min.js"></script>
 </head>
-<body onload="mirage.html.watch()">
+<body>
+<script>
+mirage.html.watch();
+</script>
+  <div data-layout="type: stack-panel; orientation: vertical; html.height: infinite;">
+    <div class="mainContent" data-layout="type: panel">
+      <div data-layout="type: stack-panel; orientation: vertical; min-width: 800; max-width: 1040; horizontal-alignment: center;">
+
+        <div id="header" data-layout="type: panel; margin: 0 20;">
+          <div id="title" data-layout="type: panel; horizontal-alignment: left;">
+            <img data-layout="type: html" src="images/logo.svg" style="height: 50px;"/>
+          </div>
+          <div id="menu" class="menu" data-layout="type: stack-panel; orientation: horizontal; horizontal-alignment: right; vertical-alignment: center;">
+            <a class="menu--option" data-layout="type: html;">Tutorials</a>
+            <a class="menu--option" data-layout="type: html;">Download</a>
+            <a class="menu--option" data-layout="type: html;">Team</a>
+          </div>
+        </div>
+
+        <h1 data-layout="type:html; margin: 0 40; max-width: 780">Quickly layout your application and keep the frameworks you’re used to</h1>
+        <div class="button--cta" data-layout="type: panel; horizontal-alignment: center">
+          <span data-layout="type: html; margin: 30 10;">Get started</span>
+        </div>
+
+        <div data-layout="type: grid; column-definitions: * 30 * 30 *; margin: 0 100 0 80">
+
+          <div class="feature" data-layout="type: stack-panel; grid.column: 0; orientation: vertical;">
+            <img data-layout="type: html; margin: 0 0 0 20" src="images/pencil.svg"/>
+            <h3 data-layout="type: html; margin: 0 0 0 10">Simple design language</h3>
+            <p data-layout="type: html">Code with a simple design syntax and properly align elements with ease</p>
+          </div>
+
+          <div class="feature" data-layout="type: stack-panel; grid.column: 2; orientation: vertical;">
+            <img data-layout="type: html; margin: 0 0 0 20" src="images/wrench.svg"/>
+            <h3 data-layout="type: html; margin: 0 0 0 10">Integrates with tools you know</h3>
+            <p data-layout="type: html">Create part or all of your application with Mirage and use the frameworks you’re already using</p>
+          </div>
+
+          <div class="feature" data-layout="type: stack-panel; grid.column: 4; orientation: vertical;">
+            <img data-layout="type: html; margin: 0 0 0 20" src="images/page.svg"/>
+            <h3 data-layout="type: html; margin: 0 0 0 10">Adaptable to many formats</h3>
+            <p data-layout="type: html">Build designs which can quickly be rendered in HTML, Canvas, SVG or more</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="meetTheTeam" data-layout="type: panel">
+      <div data-layout="type: stack-panel; orientation: vertical; min-width: 800; max-width: 1040; horizontal-alignment: center;">
+        <h2 data-layout="type: html; margin: 0 40">Meet the team</h2>
+
+        <div data-layout="type: stack-panel; orientation: horizontal; margin: 0 0 0 100">
+          <div data-layout="type: stack-panel; orientation: vertical; margin: 40 0">
+            <div class="meetTheTeam--photo" data-layout="type:html; margin: 0 0 0 20">
+              <img src="http://lorempixel.com/g/100/100/cats/1"/>
+            </div>
+            <p class="meetTheTeam--handle" data-layout="type: html">@bsick</p>
+          </div>
+
+          <div data-layout="type: stack-panel; orientation: vertical; margin: 40 0">
+            <div class="meetTheTeam--photo" data-layout="type:html; margin: 0 0 0 20">
+              <img src="http://lorempixel.com/g/100/100/cats/2"/>
+            </div>
+            <p class="meetTheTeam--handle" data-layout="type: html">@bsick</p>
+          </div>
+
+          <div data-layout="type: stack-panel; orientation: vertical; margin: 40 0">
+            <div class="meetTheTeam--photo" data-layout="type:html; margin: 0 0 0 20">
+              <img src="http://lorempixel.com/g/100/100/cats/3"/>
+            </div>
+            <p class="meetTheTeam--handle" data-layout="type: html">@bsick</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>

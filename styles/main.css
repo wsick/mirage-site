@@ -1,3 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    margin: 0;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Site CSS */
+
+p, a, h1, h2, h3, span {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.mainContent {
+  color: white;
+  background-color: #55A7DD;
+}
+
+.menu--option {
+  padding: 0px 20px;
+}
+
+.button--cta {
+  background-color: #15669C;
+  border-radius: 8px;
+}
+
+.feature > p {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 30px
+}
+
+.meetTheTeam {
+  background-color: white;
+  color: #15669C;
+}
+
+.meetTheTeam--photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 5px solid #55A7DD;
+}
+
+.meetTheTeam--photo > img {
+  border-radius: 100px;
+}
+
+.meetTheTeam--handle {
+  color: #55A7DD;
+  font-size: 1.2rem;
+  text-align: center;
 }
